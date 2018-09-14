@@ -3,3 +3,8 @@ window.onbeforeunload = function () {
 };
 
 
+
+
+function anim() {
+  document.getElementById('parallelogramme').classList.toggle('animOn');
+}

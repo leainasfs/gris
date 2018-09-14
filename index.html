@@ -3,13 +3,13 @@
 <head>
 	<title>LE GRIS</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="jsgris.js"></script>
-	<script src="https://unpkg.com/scrollreveal"></script>
+
 
 
 </head>
 <body>
-	<div id="lucas">Lucas Duval</div><div id="gessy">Gessy Krauss</div><div id="léa">Léa Lambert</div></div>
 <div class="header">
 	<img src="le gris.gif" class="gifgris">
 </div>
@@ -73,13 +73,14 @@
 </div>
 
 <table>
-   <tr>
+   <tr class="animation" onmouseover="anim()">
        <td class="td1"> "Tout se marie avec le gris, c'est donc la couleur recommandée pour les accessoires." </br>         - Christian Dior.</td>
        <td class="td2"><div id="rectangle"><div id="parallelogramme"></div><div id="nomdior">GRIS DIOR</div><div id="hex">#A8A9A8</div></div><img id="grisdior" src="gris-dior.png">
        	<div id="rectangle2"></div></td>
    </tr>
+
    <tr>
-       <td class="td3">Le gris, à l’instar du blanc, s’utilise partout dans la maison et possède la même élégance intemporelle.</br> Dans la symbolique des couleurs, le gris représente deux univers très opposés : on l’associe à la tristesse et la mélancolie, alors qu’il renvoie à bien des valeurs positives, comme la sagesse, la plénitude et la connaissance. </br>À la fin du Moyen Âge, le gris est même perçu comme étant l’opposé du noir, soit symbole d’espérance et de bonheur. 
+       <td class="td3">Le gris, à l’instar du blanc, s’utilise partout dans la maison et possède la même élégance intemporelle.</br></br> Dans la symbolique des couleurs, le gris représente deux univers très opposés : on l’associe à la tristesse et la mélancolie, alors qu’il renvoie à bien des valeurs positives, comme la sagesse, la plénitude et la connaissance. </br></br>À la fin du Moyen Âge, le gris est même perçu comme étant l’opposé du noir, soit symbole d’espérance et de bonheur. 
 </td>
        <td class="td4">LOL</td>
    </tr>
@@ -87,15 +88,18 @@
   <tr>
   <td> lol
   </td>
-  <td>Parfaitement neutre lorsque entre le noir et le blanc, le gris peut rassembler toutes les autres couleurs et donc arborer des nuances incroyablement variées : du plus clair au plus foncé, on retrouve des teintes aux noms évocateurs telles que le gris souris, le fameux gris taupe, le gris tourterelle, le gris perle, le gris ardoise ou le gris anthracite, pour ne citer que les plus connus.</td>
+  <td class="tdgris">Parfaitement neutre lorsque entre le <span style="color:black">noir</span> et le <span style="color:white">blanc, le gris peut rassembler toutes les autres couleurs et donc arborer des nuances incroyablement variées :</br> du plus clair au plus foncé, on retrouve des teintes aux noms évocateurs telles que le <span style="color:#9E9E9E">gris souris</span>, le fameux <span style="color:#463F32">gris taupe</span>, le <span style="color:#BBACAC">gris tourterelle</span>, le <span style="color:#CECECE">gris perle</span>, le <span style="color:#2F4F4F">gris ardoise</span> ou le <span style="color:#303030">gris anthracite</span>, pour ne citer que les plus connus.</td>
 </tr>
 <tr>
 	<td>
-		Souvent discret et inaperçu, le gris est pourtant présent partout et est synonyme de progrès, voire de finesse. Christian Dior et Apple en sont les parfaits exemples. En effet le gris Dior et le gris Sidéral sont immédiatement associés à ces figures du luxe, reconnaissables en un coup d’œil. 
+		Souvent discret et inaperçu, le gris est pourtant présent partout et est synonyme de progrès, voire de finesse. Christian Dior et Apple en sont les parfaits exemples. </br>
+		Le célèbre couturier couvre les murs de son hôtel particulier d’un gris perle connu aujourd’hui sous le fameux nom de « gris Dior ». En effet le gris Dior et le gris Sidéral sont immédiatement associés à ces figures du luxe, reconnaissables en un coup d’œil. 
+ 
 	</td>
-	<td>lol</td>
+	<div class="tdiphone"><img class="iphone" src="iphone.png"></div>
 </tr>
 </table>
 
+<div id="lucas">Lucas Duval</div><div id="gessy">Gessy Krauss</div><div id="léa">Léa Lambert</div></div>
 </body>
 </html>
