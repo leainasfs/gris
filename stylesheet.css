@@ -7,6 +7,7 @@ div {
 	margin: 6px;
 }
 
+
 .div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover, .div6:hover, .div7:hover, .div8:hover, .div9:hover, .div10:hover, .div11:hover, .div12:hover, .div13:hover, .div14:hover, .div15:hover, .div16:hover,  .div17:hover, .div18:hover, .div19:hover, .div20:hover, .div21:hover, .div22:hover, .div23:hover, .div24:hover, .div25:hover, .div26:hover, .div27:hover, .div28:hover, .div29:hover, .div30:hover, .div31:hover, .div32:hover, .div33:hover, .div34:hover, .div35:hover, .div36:hover, .div37:hover, .div38:hover, .div39:hover, .div40:hover, .div41:hover, .div42:hover, .div43:hover, .div44:hover, .div45:hover, .div46:hover, .div47:hover, .div48:hover,  .div49:hover, .div50:hover, .div51:hover, .div52:hover {
 	filter:alpha(opacity=50); 
              			-moz-opacity: 0.5; 
@@ -390,6 +391,36 @@ td {
 	position: absolute;
 }
 
+/*@-webkit-keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}*/
 #hex {
 	position: absolute;
 	left: 1015px;
@@ -407,24 +438,21 @@ td {
 #lucas {
 	position: absolute;
 	left: 80px;
-	font-family: Arial;
 }
 
 #léa {
 	position: absolute;
 	left: 1150px;
-	font-family: Arial;
 }
 
 #gessy {
 	position: absolute;
 	left: 650px;
-	font-family: Arial;
 }
 
 
 .iphone {
-	left: 760px;
+	left: 660px;
 	width: 7em;	
 	transition: 0.5s;
 	display: flex;
@@ -434,7 +462,7 @@ td {
 }
 
 .iphone:hover {
-	left: 750px;
+	left: 650px;
 	width: 8em;	
 	transition: 0.5s;
 	display: flex;
@@ -460,8 +488,9 @@ td {
 
 
 .animOn {
-	animation: parallelogramme 5s 1;
-	animation-fill-mode: backwards;
+	animation: parallelogramme 5s infinite;
+	animation-direction: alternate;
+
 }
 
 @keyframes parallelogramme {
@@ -477,4 +506,53 @@ td {
 .tdgris {
 	background-color: #798081;	
 	border: solid white 60px;
+}
+
+.pantone {
+	width: 25em;
+	display: inline-flex;
+}
+
+.parfum {
+	left: 900px;
+	width: 12em;	
+	transition: 0.5s;
+	display: flex;
+	padding-left: 10%;
+	margin-top: 1770px;
+	position: absolute;
+}
+
+.parfum:hover {
+	left: 880px;
+	width: 14em;	
+	transition: 0.5s;
+	display: flex;
+	padding-left: 10%;
+	margin-top: 1750px;
+	position: absolute;
+}
+
+
+.sofa {
+	display: inline-flex;
+	width: 25em;
+	padding-left: 15px;
+}
+
+.bandeau {
+	height:2em;
+	color: lightgrey;
+	font-family: 'Julius Sans One';
+}
+
+#rectangle3 {
+    width: 370px;
+    height: 320px;
+    background: none;
+    border: solid 2px black;
+   	position: absolute;
+   	left: 170px;
+   	display: inline-flex;
+   	margin-top: 25px;
 }
