@@ -345,7 +345,7 @@ body {
 
 td {
 	height: 30em;
-	width: 40em;
+	width: 35em;
 	margin-left: 10px;
 	shape-margin: 10px;
 	font-family: 'Julius Sans One';
@@ -385,7 +385,7 @@ td {
 #grisdior {
 	float: none;
 	width: 10em;
-	left: 880px;
+	left: 870px;
 	margin-top: 85px;
 	display: inline-flex;
 	position: absolute;
@@ -423,13 +423,13 @@ td {
 }*/
 #hex {
 	position: absolute;
-	left: 1015px;
+	left: 1005px;
 	margin-top: 320px;
 }
 
 #nomdior {
 	position: absolute;
-	left: 1008px;
+	left: 995px;
 	margin-top: 300px;
 }
 
